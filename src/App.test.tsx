@@ -4,5 +4,5 @@ import App from './App'
 
 it('Should render title correctly', async () => {
   render(<App />)
-  expect(screen.getByText('Vite with React')).toBeDefined()
+  expect(screen.getByText('Simple application 🚀')).toBeDefined()
 })
